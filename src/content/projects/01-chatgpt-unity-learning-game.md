@@ -7,7 +7,7 @@ tags:
   - "ChatGPT"
   - "Web Crawling"
   - "Team Project"
-image: "images/projects/project-1.webp"
+image: "/images/projects/project-1.webp"
 ---
 
 ## Overview

@@ -10,7 +10,7 @@ tags:
   - "Gaussian Splatting"
   - "Mobile"
   - "Team Project"
-image: "images/projects/project-7.webp"
+image: "/images/projects/project-7.webp"
 ---
 
 ## Overview

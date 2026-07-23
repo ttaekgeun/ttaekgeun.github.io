@@ -14,10 +14,32 @@ interface Props {
     image?: string;
 }
 
-const { title, href, description, date, authors, extraInput, tags, externalUrl } = Astro.props;
+const { title, href, description, date, authors, extraInput, tags, externalUrl, image, } = Astro.props;
+
+const imageSrc = image
+  ? image.startsWith("/") || /^https?:\/\//.test(image)
+    ? image
+    : `/${image}`
+  : undefined;
 ---
 
 <article class="card">
+  {
+    imageSrc && (
+      <a href={href} class="card-image-link">
+        <img
+          src={imageSrc}
+          alt={`${title} thumbnail`}
+          class="card-image"
+          width="180"
+          height="113"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+    )
+  }
+  
     <div class="card-content">
         <a href={href} class="card-title">{title}</a>
 

@@ -32,7 +32,7 @@ image: "/images/projects/02/thumbnail.png"
 
 - The game could not be fully completed within the available development period.
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="Bistro Survival image gallery">
+<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-02 image gallery-1">
   <div class="project-gallery__viewport" data-viewport>
     <div class="project-gallery__track" data-track>
       <figure class="project-gallery__slide">

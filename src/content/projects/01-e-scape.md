@@ -33,7 +33,7 @@ image: "/images/projects/01/thumbnail.png"
 - Prepared presentation materials and reports, facilitated meetings, and documented meeting minutes.
 
 ## Result
-<div class="project-gallery" data-gallery tabindex="0" aria-label="E-Scape image gallery">
+<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-01 image gallery-1">
   <div class="project-gallery__viewport" data-viewport>
     <div class="project-gallery__track" data-track>
       <figure class="project-gallery__slide">
@@ -44,7 +44,7 @@ image: "/images/projects/01/thumbnail.png"
   </div>
 </div>
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="E-Scape image gallery">
+<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-01 image gallery-2">
   <div class="project-gallery__viewport" data-viewport>
     <div class="project-gallery__track" data-track>
       <figure class="project-gallery__slide">
@@ -61,7 +61,7 @@ image: "/images/projects/01/thumbnail.png"
   </div>
 </div>
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="E-Scape image gallery">
+<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-01 image gallery-3">
   <div class="project-gallery__viewport" data-viewport>
     <div class="project-gallery__track" data-track>
       <figure class="project-gallery__slide">
@@ -82,7 +82,7 @@ image: "/images/projects/01/thumbnail.png"
   </div>
 </div>
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="E-Scape image gallery">
+<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-01 image gallery-4">
   <div class="project-gallery__viewport" data-viewport>
     <div class="project-gallery__track" data-track>
       <figure class="project-gallery__slide">
@@ -99,7 +99,7 @@ image: "/images/projects/01/thumbnail.png"
   </div>
 </div>
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="E-Scape image gallery">
+<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-01 image gallery-5">
   <div class="project-gallery__viewport" data-viewport>
     <div class="project-gallery__track" data-track>
       <figure class="project-gallery__slide">

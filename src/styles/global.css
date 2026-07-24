@@ -1045,6 +1045,7 @@ a:hover,
 
 .prose .gallery__track {
   display: flex;
+  align-items: flex-start;
   transition: transform 350ms ease;
   will-change: transform;
 }
@@ -1056,16 +1057,21 @@ a:hover,
 }
 
 .prose .gallery__image {
+  display: flex;
   width: 100%;
+  aspect-ratio: 16 / 9;
+  align-items: center;
+  justify-content: center;
   margin: 0;
+  overflow: hidden;
   background: #000;
 }
 
 .prose .gallery__image img {
   display: block;
   width: 100%;
-  height: auto;
-  max-height: 420px;
+  height: 100%;
+  max-height: none;
   margin: 0;
   object-fit: contain;
   border: 0;
@@ -1073,10 +1079,11 @@ a:hover,
 }
 
 .prose .gallery__caption {
-  position: static;
   display: flex;
+  min-height: 2.6rem;
   align-items: baseline;
   gap: 0.5rem;
+  box-sizing: border-box;
   margin: 0;
   padding: 0.35rem 0.75rem;
   color: inherit;

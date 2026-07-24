@@ -9,7 +9,7 @@ tags:
   - "PBR"
   - "glTF"
   - "Personal Project"
-image: "/images/projects/project-6.webp"
+image: "/images/projects/06/thumbnail.png"
 ---
 
 ## Overview

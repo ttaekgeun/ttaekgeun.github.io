@@ -7,7 +7,7 @@ tags:
   - "VR"
   - "Multiplayer"
   - "Team Project"
-image: "/images/projects/project-2.webp"
+image: "/images/projects/02/thumbnail.png"
 ---
 
 ## Overview

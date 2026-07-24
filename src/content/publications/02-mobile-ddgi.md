@@ -8,7 +8,7 @@ description: "A lightweight probe-based dynamic diffuse global illumination meth
 tags:
   - "Real-time Rendering"
   - "Ray Tracing"
-  - "Mobile Platform"
+  - "Mobile"
   - "Global Illumination"
   - "DDGI"
   - "Vulkan"

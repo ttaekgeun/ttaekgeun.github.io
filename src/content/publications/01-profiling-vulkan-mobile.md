@@ -9,7 +9,7 @@ tags:
   - "Real-Time Rendering"
   - "Ray Tracing"
   - "Ray Query"
-  - "Mobile Platform"
+  - "Mobile"
   - "Vulkan"
 ---
 

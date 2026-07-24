@@ -11,7 +11,7 @@ tags:
   - "Deferred Rendering"
   - "glTF"
   - "Personal Project"
-image: "/images/projects/project-3.webp"
+image: "/images/projects/03/thumbnail.png"
 ---
 
 ## Overview

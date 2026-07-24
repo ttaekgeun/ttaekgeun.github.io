@@ -27,3 +27,24 @@ image: "/images/projects/06/thumbnail.png"
 - Implemented instancing and rendered multiple instances of the same object.
 - Loaded glTF files and rendered triangle-mesh data.
 - Updated dynamic objects and reflected their changes in the ray-tracing acceleration structures.
+
+<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-06 image gallery-1">
+  <div class="project-gallery__viewport" data-viewport>
+    <div class="project-gallery__track" data-track>
+      <figure class="project-gallery__slide">
+        <div class="project-gallery__image"><img src="/images/projects/06/main.png" alt="Main View" loading="lazy"></div>
+        <figcaption class="project-gallery__caption"><strong>Main View</strong><span>Shadow, reflection and refraction effects are applied and supports triangle, sphere, aabb, cone, cylinder intersection.</figcaption>
+      </figure>
+      <figure class="project-gallery__slide">
+        <div class="project-gallery__image"><img src="/images/projects/06/instancing.png" alt="Instancing" loading="lazy"></div>
+        <figcaption class="project-gallery__caption"><strong>Instancing</strong><span>The result image after applying instancing.</figcaption>
+      </figure>
+      <figure class="project-gallery__slide">
+        <div class="project-gallery__image"><img src="/images/projects/06/dynamic_update.png" alt="Dynamic Update" loading="lazy"></div>
+        <figcaption class="project-gallery__caption"><strong>Dynamic Update</strong><span>The result image after applying dynamic update.</figcaption>
+      </figure>
+    </div>
+    <button type="button" class="project-gallery__nav project-gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
+    <button type="button" class="project-gallery__nav project-gallery__nav--next" data-next aria-label="Next image">›</button>
+  </div>
+</div>

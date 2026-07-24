@@ -5,7 +5,7 @@ tags:
   - "TypeScript"
   - "Astro"
   - "Tailwind"
-external_url: "https://github.com/username/project (Optional)"
+git_url: "https://github.com/username/project (Optional)"
 ---
 
 # Project Overview

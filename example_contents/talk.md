@@ -2,7 +2,7 @@
 title: "The Title of Your Talk"
 date: "2026-04-19"
 event: "Conference or Seminar Name"
-external_url: "https://example.com/slides (Optional)"
+paper_url: "https://example.com/slides (Optional)"
 description: "A brief summary of what you presented."
 tags:
   - "Physics"

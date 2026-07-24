@@ -3,7 +3,7 @@ title: "Performance Profiling of Vulkan-based Ray Tracing Renderers on Mobile Pl
 author: "Taekgeun You, Sungho Yun, Sehee Cho, Woong Seo and Insung Ihm"
 date: "2025-07-25"
 journal: "Journal of the Korea Computer Graphics Society, Vol. 31, No. 3, pp. 171–181"
-external_url: "https://doi.org/10.15701/kcgs.2025.31.3.171"
+paper_url: "https://doi.org/10.15701/kcgs.2025.31.3.171"
 description: "A performance study of Vulkan-based full and hybrid ray tracing renderers optimized for real-time rendering on mobile platforms."
 tags:
   - "Real-Time Rendering"

@@ -16,7 +16,8 @@ export interface ListingItem {
     authors?: string;
     extraInput?: string;
     tags: string[];
-    externalUrl?: string;
+    paperUrl?: string;
+    gitUrl?: string;
     image?: string;
 }
 

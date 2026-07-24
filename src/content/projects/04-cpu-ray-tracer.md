@@ -1,7 +1,7 @@
 ---
 title: "CPU Ray Tracer"
 description: "A C++ CPU ray tracer supporting multiple analytic primitives, glTF triangle meshes, reflection, refraction, hard and soft shadows, and physically based shading."
-external_url: "https://github.com/ttaekgeun/RealTimeRendering/tree/main/HW1"
+git_url: "https://github.com/ttaekgeun/RealTimeRendering/tree/main/HW1"
 tags:
   - "C++"
   - "Ray Tracing"

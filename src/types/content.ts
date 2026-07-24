@@ -40,23 +40,14 @@ export interface Blog extends BasePage {
 
 export interface Project extends BasePage {
   date: string;
-  external_url?: string;
+  paper_url?: string;
+  git_url?: string;
 }
 
 export interface Publication extends BasePage {
   date: string;
   author?: string;
   journal?: string;
-  external_url?: string;
-}
-
-export interface Talk extends BasePage {
-  date: string;
-  event?: string;
-  external_url?: string;
-}
-
-export interface Teaching extends BasePage {
-  institution?: string;
-  external_url?: string;
+  paper_url?: string;
+  git_url?: string;
 }

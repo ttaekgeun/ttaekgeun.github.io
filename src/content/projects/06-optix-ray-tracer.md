@@ -1,7 +1,7 @@
 ---
 title: "OptiX-Based Ray Tracer"
 description: "An NVIDIA OptiX ray tracer supporting built-in and custom primitives, reflection, refraction, shadows, physically based shading, instancing, glTF meshes, and dynamic objects."
-external_url: "https://github.com/ttaekgeun/RealTimeRendering/tree/main/HW4"
+git_url: "https://github.com/ttaekgeun/RealTimeRendering/tree/main/HW4"
 tags:
   - "C++"
   - "OptiX"

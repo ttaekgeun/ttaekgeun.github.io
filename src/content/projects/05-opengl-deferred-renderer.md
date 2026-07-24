@@ -1,7 +1,7 @@
 ---
 title: "OpenGL Deferred Renderer"
 description: "An OpenGL renderer developed from forward rendering to deferred rendering, with selective shading optimized through light volumes and stencil-buffer testing."
-external_url: "https://github.com/ttaekgeun/RealTimeRendering/tree/main/HW3"
+git_url: "https://github.com/ttaekgeun/RealTimeRendering/tree/main/HW3"
 tags:
   - "C++"
   - "OpenGL"

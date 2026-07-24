@@ -3,7 +3,8 @@ title: "Mobile-DDGI: Lightweight Probe-Based Global Illumination via Adaptive Bu
 author: "Taekgeun You, Woong Seo, Donghee Han and Insung Ihm"
 date: "2026-06-29"
 journal: "I3D Companion '26: Companion Proceedings of the Symposium on Interactive 3D Graphics and Games, Article No. 16"
-external_url: "https://dl.acm.org/doi/10.1145/3807895.3807920"
+paper_url: "https://dl.acm.org/doi/10.1145/3807895.3807920"
+git_url: "https://github.com/ttaekgeun/PIKA/blob/main/docs/Mobile-DDGI.md"
 description: "A lightweight probe-based dynamic diffuse global illumination method that adaptively allocates a limited probe-update budget for efficient real-time rendering on mobile hardware. This work was presented in the poster track at I3D 2026 and received the Best Poster Award."
 tags:
   - "Real-time Rendering"

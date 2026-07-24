@@ -1,7 +1,7 @@
 ---
 title: "Selective Ray Tracer Using Vulkan and CUDA"
 description: "A selective shadow ray tracer that detects shadow-map boundaries with a CUDA Sobel filter and applies ray tracing only to edge regions to reduce cost while improving shadow quality."
-external_url: "https://github.com/ttaekgeun/ShadowEdgeSelectiveRT"
+git_url: "https://github.com/ttaekgeun/ShadowEdgeSelectiveRT"
 tags:
   - "C++"
   - "Vulkan"

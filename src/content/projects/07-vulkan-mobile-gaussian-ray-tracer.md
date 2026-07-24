@@ -1,7 +1,7 @@
 ---
 title: "3DGVRT: Vulkan-Based Mobile Gaussian Ray Tracer"
 description: "A mobile Gaussian ray tracer created by porting NVIDIA 3DGRUT to Vulkan and optimizing both the ray-tracing-pipeline and Ray Query implementations."
-external_url: "https://github.com/sebbang99/3DGVRT"
+git_url: "https://github.com/sebbang99/3DGVRT"
 tags:
   - "C++"
   - "Vulkan"

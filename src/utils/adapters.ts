@@ -17,7 +17,8 @@ export function getListingItem(entry: any, collection?: string): ListingItem {
         authors: d.author,
         extraInput: d.journal || d.event || d.institution,
         tags: d.tags || [],
-        externalUrl: d.external_url,
+        paperUrl: d.paper_url,
+        gitUrl: d.git_url,
         image: d.image,
     };
 }

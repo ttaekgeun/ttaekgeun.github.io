@@ -10,11 +10,12 @@ interface Props {
     authors?: string;
     extraInput?: string;
     tags?: string[];
-    externalUrl?: string;
+    paperUrl?: string;
+    gitUrl?: string;
     image?: string;
 }
 
-const { title, href, description, date, authors, extraInput, tags, externalUrl, image, } = Astro.props;
+const { title, href, description, date, authors, extraInput, tags, paperUrl, gitUrl, image, } = Astro.props;
 
 const imageSrc = image
   ? image.startsWith("/") || /^https?:\/\//.test(image)
@@ -78,10 +79,20 @@ const imageSrc = image
     </div>
 
     {
-        externalUrl && (
+        paperUrl && (
             <div class="flex-shrink-0">
-                <a href={externalUrl} target="_blank" rel="noopener noreferrer" class="card-link">
-                    View External
+                <a href={paperUrl} target="_blank" rel="noopener noreferrer" class="card-link">
+                    Paper
+                </a>
+            </div>
+        )
+    }
+
+    {
+        gitUrl && (
+            <div class="flex-shrink-0">
+                <a href={gitUrl} target="_blank" rel="noopener noreferrer" class="card-link">
+                    Git
                 </a>
             </div>
         )

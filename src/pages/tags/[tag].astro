@@ -34,7 +34,8 @@ const content = await getContentByTag(tagName);
                 authors: item.data.author,
                 extraInput: item.data.journal || item.data.event || item.data.institution,
                 tags: item.data.tags,
-                externalUrl: item.data.external_url,
+                paperUrl: item.data.paper_url,
+                gitUrl: item.data.git_url,
             };
             const href = `/${item.collection}/${item.id}`;
             return <BaseItemCard {...listingItem} href={href} />;

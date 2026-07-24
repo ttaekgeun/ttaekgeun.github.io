@@ -19,6 +19,7 @@ export interface ListingItem {
     paperUrl?: string;
     gitUrl?: string;
     image?: string;
+    award?: string;
 }
 
 export interface DetailItem extends ListingItem {

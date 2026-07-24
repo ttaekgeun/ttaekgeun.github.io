@@ -20,6 +20,7 @@ export function getListingItem(entry: any, collection?: string): ListingItem {
         paperUrl: d.paper_url,
         gitUrl: d.git_url,
         image: d.image,
+        award: d.award,
     };
 }
 

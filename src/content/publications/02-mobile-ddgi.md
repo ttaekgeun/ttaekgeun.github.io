@@ -13,6 +13,7 @@ tags:
   - "Global Illumination"
   - "DDGI"
   - "Vulkan"
+award: "I3D 2026 Best Poster Award"
 ---
 
 ## Abstract

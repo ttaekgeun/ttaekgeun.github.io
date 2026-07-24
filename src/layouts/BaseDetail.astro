@@ -73,6 +73,19 @@ const ogImage = entry.data.image || SITE.ogImage;
     <article>
         <h1 class="page-title mb-4">{detail.title}</h1>
 
+        {
+          detail.award && (
+            <div class="award-banner">
+              <span class="award-banner__icon" aria-hidden="true">★</span>
+
+              <div>
+                <strong>Best Poster Award</strong>
+                <span>{detail.award}</span>
+              </div>
+            </div>
+          )
+        }
+
         {meta.length > 0 && (
             <div class="card-meta mb-4">
                 {meta.map((m: any) => (

@@ -13,9 +13,10 @@ interface Props {
     paperUrl?: string;
     gitUrl?: string;
     image?: string;
+    award?: string;
 }
 
-const { title, href, description, date, authors, extraInput, tags, paperUrl, gitUrl, image, } = Astro.props;
+const { title, href, description, date, authors, extraInput, tags, paperUrl, gitUrl, image, award, } = Astro.props;
 
 const imageSrc = image
   ? image.startsWith("/") || /^https?:\/\//.test(image)
@@ -42,6 +43,15 @@ const imageSrc = image
   }
   
     <div class="card-content">
+        {
+            award && (
+            <div class="award-badge">
+                <span aria-hidden="true">★</span>
+                <span>{award}</span>
+            </div>
+            )
+        }
+
         <a href={href} class="card-title">{title}</a>
 
         <div class="card-meta">

@@ -36,107 +36,107 @@ The renderer performs ray tracing only around boundaries detected in the shadow-
 - In the tested PC environment, the hybrid rendering approach does not outperform full ray tracing. This is mainly because the test system uses an RTX 4090, which provides very high ray tracing performance for general Whitted-style ray tracing workloads.
 
 ## Result
-<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-1">
-  <div class="project-gallery__viewport" data-viewport>
-    <div class="project-gallery__track" data-track>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/original-texture-1.png" alt="Original Texture: Sponza" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Original Texture: Sponza</strong></figcaption>
+<div class="gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-1">
+  <div class="gallery__viewport" data-viewport>
+    <div class="gallery__track" data-track>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/original-texture-1.png" alt="Original Texture: Sponza" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Original Texture: Sponza</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/original-texture-2.png" alt="Original Texture: Bistro Exterior" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Original Texture: Bistro Exterior</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/original-texture-2.png" alt="Original Texture: Bistro Exterior" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Original Texture: Bistro Exterior</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/original-texture-3.png" alt="Original Texture: Cornell Box" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Original Texture: Cornell Box</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/original-texture-3.png" alt="Original Texture: Cornell Box" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Original Texture: Cornell Box</strong></figcaption>
       </figure>
     </div>
-    <button type="button" class="project-gallery__nav project-gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
-    <button type="button" class="project-gallery__nav project-gallery__nav--next" data-next aria-label="Next image">›</button>
+    <button type="button" class="gallery__nav gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
+    <button type="button" class="gallery__nav gallery__nav--next" data-next aria-label="Next image">›</button>
   </div>
 </div>
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-2">
-  <div class="project-gallery__viewport" data-viewport>
-    <div class="project-gallery__track" data-track>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/position-texture-1.png" alt="Position Texture: Sponza" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Position Texture: Sponza</strong></figcaption>
+<div class="gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-2">
+  <div class="gallery__viewport" data-viewport>
+    <div class="gallery__track" data-track>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/position-texture-1.png" alt="Position Texture: Sponza" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Position Texture: Sponza</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/position-texture-2.png" alt="Position Texture: Bistro Exterior" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Position Texture: Bistro Exterior</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/position-texture-2.png" alt="Position Texture: Bistro Exterior" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Position Texture: Bistro Exterior</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/position-texture-3.png" alt="Position Texture: Cornell Box" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Position Texture: Cornell Box</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/position-texture-3.png" alt="Position Texture: Cornell Box" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Position Texture: Cornell Box</strong></figcaption>
       </figure>
     </div>
-    <button type="button" class="project-gallery__nav project-gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
-    <button type="button" class="project-gallery__nav project-gallery__nav--next" data-next aria-label="Next image">›</button>
+    <button type="button" class="gallery__nav gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
+    <button type="button" class="gallery__nav gallery__nav--next" data-next aria-label="Next image">›</button>
   </div>
 </div>
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-3">
-  <div class="project-gallery__viewport" data-viewport>
-    <div class="project-gallery__track" data-track>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/shadow-texture-1.png" alt="Shadow Texture: Sponza" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Shadow Texture: Sponza</strong></figcaption>
+<div class="gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-3">
+  <div class="gallery__viewport" data-viewport>
+    <div class="gallery__track" data-track>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/shadow-texture-1.png" alt="Shadow Texture: Sponza" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Shadow Texture: Sponza</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/shadow-texture-2.png" alt="Shadow Texture: Bistro Exterior" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Shadow Texture: Bistro Exterior</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/shadow-texture-2.png" alt="Shadow Texture: Bistro Exterior" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Shadow Texture: Bistro Exterior</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/shadow-texture-3.png" alt="Shadow Texture: Cornell Box" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Shadow Texture: Cornell Box</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/shadow-texture-3.png" alt="Shadow Texture: Cornell Box" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Shadow Texture: Cornell Box</strong></figcaption>
       </figure>
     </div>
-    <button type="button" class="project-gallery__nav project-gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
-    <button type="button" class="project-gallery__nav project-gallery__nav--next" data-next aria-label="Next image">›</button>
+    <button type="button" class="gallery__nav gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
+    <button type="button" class="gallery__nav gallery__nav--next" data-next aria-label="Next image">›</button>
   </div>
 </div>
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-4">
-  <div class="project-gallery__viewport" data-viewport>
-    <div class="project-gallery__track" data-track>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/edge-texture-1.png" alt="Edge Texture: Sponza" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Edge Texture: Sponza</strong></figcaption>
+<div class="gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-4">
+  <div class="gallery__viewport" data-viewport>
+    <div class="gallery__track" data-track>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/edge-texture-1.png" alt="Edge Texture: Sponza" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Edge Texture: Sponza</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/edge-texture-2.png" alt="Edge Texture: Bistro Exterior" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Edge Texture: Bistro Exterior</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/edge-texture-2.png" alt="Edge Texture: Bistro Exterior" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Edge Texture: Bistro Exterior</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/edge-texture-3.png" alt="Edge Texture: Cornell Box" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Edge Texture: Cornell Box</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/edge-texture-3.png" alt="Edge Texture: Cornell Box" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Edge Texture: Cornell Box</strong></figcaption>
       </figure>
     </div>
-    <button type="button" class="project-gallery__nav project-gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
-    <button type="button" class="project-gallery__nav project-gallery__nav--next" data-next aria-label="Next image">›</button>
+    <button type="button" class="gallery__nav gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
+    <button type="button" class="gallery__nav gallery__nav--next" data-next aria-label="Next image">›</button>
   </div>
 </div>
 
-<div class="project-gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-5">
-  <div class="project-gallery__viewport" data-viewport>
-    <div class="project-gallery__track" data-track>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/final-1.png" alt="Final Result: Sponza" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Final Result: Sponza</strong></figcaption>
+<div class="gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-5">
+  <div class="gallery__viewport" data-viewport>
+    <div class="gallery__track" data-track>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/final-1.png" alt="Final Result: Sponza" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Final Result: Sponza</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/final-2.png" alt="Final Result: Bistro Exterior" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Final Result: Bistro Exterior</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/final-2.png" alt="Final Result: Bistro Exterior" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Final Result: Bistro Exterior</strong></figcaption>
       </figure>
-      <figure class="project-gallery__slide">
-        <div class="project-gallery__image"><img src="/images/projects/03/final-3.png" alt="Final Result: Cornell Box" loading="lazy"></div>
-        <figcaption class="project-gallery__caption"><strong>Final Result: Cornell Box</strong></figcaption>
+      <figure class="gallery__slide">
+        <div class="gallery__image"><img src="/images/projects/03/final-3.png" alt="Final Result: Cornell Box" loading="lazy"></div>
+        <figcaption class="gallery__caption"><strong>Final Result: Cornell Box</strong></figcaption>
       </figure>
     </div>
-    <button type="button" class="project-gallery__nav project-gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
-    <button type="button" class="project-gallery__nav project-gallery__nav--next" data-next aria-label="Next image">›</button>
+    <button type="button" class="gallery__nav gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
+    <button type="button" class="gallery__nav gallery__nav--next" data-next aria-label="Next image">›</button>
   </div>
 </div>

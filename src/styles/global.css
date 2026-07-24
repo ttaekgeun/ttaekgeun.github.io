@@ -247,6 +247,8 @@ a:hover,
   display: block;
   flex: 0 0 180px;
   text-decoration: none;
+  align-self: center;
+  flex-shrink: 0;
 }
 
 .card-image {
@@ -1064,7 +1066,7 @@ a:hover,
   justify-content: center;
   margin: 0;
   overflow: hidden;
-  background: #000;
+  background: transparent;
 }
 
 .prose .gallery__image img {

@@ -1,6 +1,6 @@
 ---
 name: "Taekgeun You"
-avatar: "taekgeun.jpg"
+avatar: "images/taekgeun.jpg"
 shortBio: "Graphics Engineer focused on real-time rendering"
 ---
 

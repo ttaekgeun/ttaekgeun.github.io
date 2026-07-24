@@ -22,7 +22,7 @@ education:
 ---
 
 ## Skills
-- Programming Languages: C, C++, C#, Phython, glsl
-- APIs: OpenGL, Vulkan, OptiX, CUDA
-- IDE: Visual Studio
-- Tools: Git, Nsight, Radeon GPU Profiler/Raytracing Analyzer(RGP/RRA)
+- *Programming Languages: C, C++, C#, Phython, glsl*
+- *APIs: OpenGL, Vulkan, OptiX, CUDA*
+- *IDE: Visual Studio*
+- *Tools: Git, Nsight, Radeon GPU Profiler/Raytracing Analyzer(RGP/RRA)*

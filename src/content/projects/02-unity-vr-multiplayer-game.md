@@ -1,5 +1,5 @@
 ---
-title: "VR Multiplayer Game Development with Unity"
+title: "Bistro Survival: VR Multiplayer Game Development with Unity"
 description: "A Unity-based VR multiplayer game featuring motion-controller input, networked gameplay, asset integration, and performance optimization for VR environments."
 tags:
   - "Unity"
@@ -32,8 +32,19 @@ image: "/images/projects/02/thumbnail.png"
 
 - The game could not be fully completed within the available development period.
 
-## Lessons Learned
-
-- Continuous progress tracking and frequent integration are essential in team-based game development.
-- Team members must prioritize shared project goals over individual implementation preferences.
-- New features should be added only after repeatedly verifying that existing functionality remains stable.
+<div class="project-gallery" data-gallery tabindex="0" aria-label="E-Scape image gallery">
+  <div class="project-gallery__viewport" data-viewport>
+    <div class="project-gallery__track" data-track>
+      <figure class="project-gallery__slide">
+        <div class="project-gallery__image"><img src="/images/projects/02/title.png" alt="Bistro Survival Main image" loading="lazy"></div>
+        <figcaption class="project-gallery__caption"><strong>Main Menu</strong><span>The main screen providing access to Play, Manul, Option, and About.</span></figcaption>
+      </figure>
+      <figure class="project-gallery__slide">
+        <div class="project-gallery__image"><img src="/images/projects/02/HUD.png" alt="Bistro Survival HUD" loading="lazy"></div>
+        <figcaption class="project-gallery__caption"><strong>HUD</strong><span>Displays information about ammunition, grenades, remaining lives, and the crosshair.</span></figcaption>
+      </figure>
+    </div>
+    <button type="button" class="project-gallery__nav project-gallery__nav--prev" data-prev aria-label="Previous image">‹</button>
+    <button type="button" class="project-gallery__nav project-gallery__nav--next" data-next aria-label="Next image">›</button>
+  </div>
+</div>

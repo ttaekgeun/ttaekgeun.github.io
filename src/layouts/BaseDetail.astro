@@ -73,3 +73,115 @@ const ogImage = entry.data.image || SITE.ogImage;
         <slot name="footer" />
     </article>
 </BaseLayout>
+
+<script>
+  function initializeProjectGalleries() {
+    const galleries = document.querySelectorAll("[data-gallery]");
+
+    galleries.forEach((gallery) => {
+      if (!(gallery instanceof HTMLElement)) return;
+      if (gallery.dataset.initialized === "true") return;
+
+      const track = gallery.querySelector("[data-track]");
+      const viewport = gallery.querySelector("[data-viewport]");
+      const slides = Array.from(
+        gallery.querySelectorAll(".project-gallery__slide"),
+      );
+      const previousButton = gallery.querySelector("[data-prev]");
+      const nextButton = gallery.querySelector("[data-next]");
+      const currentElement = gallery.querySelector("[data-current]");
+      const totalElement = gallery.querySelector("[data-total]");
+
+      if (
+        !(track instanceof HTMLElement) ||
+        !(viewport instanceof HTMLElement) ||
+        !(previousButton instanceof HTMLButtonElement) ||
+        !(nextButton instanceof HTMLButtonElement) ||
+        slides.length === 0
+      ) {
+        return;
+      }
+
+      gallery.dataset.initialized = "true";
+
+      let currentIndex = 0;
+      let pointerStartX = 0;
+
+      if (totalElement) {
+        totalElement.textContent = String(slides.length);
+      }
+
+      function renderGallery() {
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+        if (currentElement) {
+          currentElement.textContent = String(currentIndex + 1);
+        }
+
+        previousButton.disabled = currentIndex === 0;
+        nextButton.disabled = currentIndex === slides.length - 1;
+
+        slides.forEach((slide, index) => {
+          slide.setAttribute(
+            "aria-hidden",
+            index === currentIndex ? "false" : "true",
+          );
+        });
+      }
+
+      function moveGallery(direction) {
+        currentIndex = Math.min(
+          Math.max(currentIndex + direction, 0),
+          slides.length - 1,
+        );
+
+        renderGallery();
+      }
+
+      previousButton.addEventListener("click", () => {
+        moveGallery(-1);
+      });
+
+      nextButton.addEventListener("click", () => {
+        moveGallery(1);
+      });
+
+      gallery.addEventListener("keydown", (event) => {
+        if (event.key === "ArrowLeft") {
+          event.preventDefault();
+          moveGallery(-1);
+        }
+
+        if (event.key === "ArrowRight") {
+          event.preventDefault();
+          moveGallery(1);
+        }
+      });
+
+      viewport.addEventListener("pointerdown", (event) => {
+        pointerStartX = event.clientX;
+      });
+
+      viewport.addEventListener("pointerup", (event) => {
+        const distance = event.clientX - pointerStartX;
+
+        if (Math.abs(distance) < 50) return;
+
+        if (distance < 0) {
+          moveGallery(1);
+        } else {
+          moveGallery(-1);
+        }
+      });
+
+      renderGallery();
+    });
+  }
+
+  initializeProjectGalleries();
+
+  document.addEventListener(
+    "astro:page-load",
+    initializeProjectGalleries,
+  );
+</script>

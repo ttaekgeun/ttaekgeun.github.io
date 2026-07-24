@@ -33,6 +33,7 @@ The renderer performs ray tracing only around boundaries detected in the shadow-
 ## Challenge
 
 - The Sobel filter size and its boundary-detection characteristics prevented the renderer from producing shadows as clean as originally intended.
+- In the tested PC environment, the hybrid rendering approach does not outperform full ray tracing. This is mainly because the test system uses an RTX 4090, which provides very high ray tracing performance for general Whitted-style ray tracing workloads.
 
 ## Result
 <div class="project-gallery" data-gallery tabindex="0" aria-label="Project-03 image gallery-1">
